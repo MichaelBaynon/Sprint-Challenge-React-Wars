@@ -51,7 +51,7 @@ class App extends Component {
     var { isLoaded, starwarsChars } = this.state;
 
     if (!isLoaded) {
-      return <div>Loading...</div>
+      return <div className='Loading'>Loading...</div>
     }
 
     else {
@@ -59,10 +59,12 @@ class App extends Component {
       return (
         <div className="App">
 
-          <ul>
+          <h1 className="Header">React Wars</h1>
+
+          <ul className='Names'>
             {starwarsChars.map(item => (
               <li key={item.id}>
-                Name: {item.name} Height: {item.height} Gender {item.gender} Birth Year {item.birth_year}
+                Name: {item.name} Height: {item.height} Gender: {item.gender} Birth Year {item.birth_year}
               </li>
             ))};
           </ul>
