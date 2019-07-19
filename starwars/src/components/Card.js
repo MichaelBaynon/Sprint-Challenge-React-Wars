@@ -1,6 +1,7 @@
 import React,  {useState, useEffect} from 'react'
 import axios from 'axios';
 import CardInfo from './CardInfo'
+import Images from './Images'
 
 
 export default function Card() {
@@ -15,6 +16,8 @@ useEffect(() => {
         setCard(cards)
         
         console.log(res.data.results)
+
+       
     })
   }, []);
 
@@ -27,7 +30,7 @@ useEffect(() => {
           ))}
                
             
-            
+            <Images />
 
         </div>
     )
