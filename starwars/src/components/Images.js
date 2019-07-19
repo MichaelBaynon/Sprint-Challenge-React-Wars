@@ -2,6 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import lukeSkywalker from '../Images/lukeSkywalker.jpg'
 import c3po from '../Images/c3po.jpg'
+import beru from '../Images/beru.jpg'
+import biggsDarklight from '../Images/biggsDarklighter.jpg'
+import lars from '../Images/lars.png'
+import leia from '../Images/leia.jpg'
+import obiWan from '../Images/obiWan.jpg'
+import r2d2 from '../Images/r2-d2.jpg'
+import r5d4 from '../Images/r5d4.jpg'
+import vader from '../Images/vader.jpg'
 
 export default function Images() {
     
@@ -28,6 +36,14 @@ margin-bottom: 10px;
         <StyledImgBox>
         <StyledImg src={lukeSkywalker} />
         <StyledImg src={c3po} />
+        <StyledImg src={r2d2} />
+        <StyledImg src={vader} />
+        <StyledImg src={leia} />
+        <StyledImg src={lars} />
+        <StyledImg src={beru} />
+        <StyledImg src={r5d4} />
+        <StyledImg src={biggsDarklight} />
+        <StyledImg src={obiWan} /> 
         </StyledImgBox>
     )
 }
