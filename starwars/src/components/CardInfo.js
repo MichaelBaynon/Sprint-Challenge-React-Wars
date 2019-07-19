@@ -6,8 +6,8 @@ export default function CardInfo({name, birth_year, height, mass}) {
 const StyledDivs = styled.div`
 border: 1px solid lightgrey;
 width: 300px;
-height: 800px;
-margin-left: 350px;
+height: 200px;
+margin-left: 565px;
 font-size: 15px;
 margin-bottom: 10px;
 display: inline-flex;

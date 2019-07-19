@@ -7,14 +7,19 @@ export default function Images() {
     
     const StyledImgBox = styled.div`
     display: flex;
-    margin-top: -1000px;
+    margin-top: -2119px;
     flex-direction: column;
+    margin-left: 680px;
+    
  `
 
  const StyledImg = styled.img`
  width: 300px;
     height: 200px;
-    
+    box-shadow: 1px 1px 5px;
+border-radius: 10px;
+border: 1px solid lightgrey;
+margin-bottom: 10px;
  `
 
 
