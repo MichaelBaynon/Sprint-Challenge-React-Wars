@@ -14,6 +14,7 @@ const App = () => {
 
   const StyledHeader = styled.h1`
   font-size: 100px;
+  margin-left: 240px;
   `
 
   return (
